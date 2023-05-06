@@ -17,3 +17,39 @@
     color: #fff !important;
     background-color: #000 !important;
 }
+
+
+.container-header .content{
+    margin-left: 87px;
+    margin-right: 179px;
+    display: flex;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        .img{
+            width: 230px;
+            height: 68px;
+        }
+    }
+    a{
+        margin-right: 100px;
+        font-size: 18px;
+        color: #1f1e2e;
+        letter-spacing: 1px;
+    }
+    .header-user{
+        display: flex;
+        align-items: center;
+        .toggle-lang{
+            margin-right: 85px;
+            .img{
+                width: 26px;
+                height: 26px;
+            }
+        }
+        .user{
+            button{
+            }
+        }
+    }
+}

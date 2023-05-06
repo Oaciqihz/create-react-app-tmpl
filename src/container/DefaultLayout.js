@@ -4,23 +4,13 @@ import AppFooter from "./AppFooter";
 import { useRoutes } from "react-router-dom";
 import { Layout } from "antd";
 import "@/style/container.scss";
+import "@/style/default.scss";
 
 const { Header, Footer, Content } = Layout;
 
 export default function DefaultLayout(params) {
 
     const outlet = useRoutes(routes);
-    const contentStyle = {
-        minHeight: "calc(100vh - 300px)",
-        backgroundColor: '#fff',
-    };
-      
-    const footerStyle = {
-        height: "300px",
-        textAlign: 'center',
-        color: '#fff',
-        backgroundColor: '#000',
-    };
 
     return (
         <Layout>
