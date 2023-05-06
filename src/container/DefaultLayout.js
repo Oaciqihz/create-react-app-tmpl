@@ -3,21 +3,13 @@ import AppHeader from "./AppHeader";
 import AppFooter from "./AppFooter";
 import { useRoutes } from "react-router-dom";
 import { Layout } from "antd";
+import "@/style/container.scss";
+
 const { Header, Footer, Content } = Layout;
 
 export default function DefaultLayout(params) {
 
     const outlet = useRoutes(routes);
-    const headerStyle = {
-        width: "100%",
-        height: "55px",
-        lineHeight: '55px',
-        padding: 0,
-        backgroundColor: 'rgba(0,0,0,0)',
-        // position: "fixed",
-        color: "#fff",
-        zIndex: 999
-    };
     const contentStyle = {
         minHeight: "calc(100vh - 300px)",
         backgroundColor: '#fff',
@@ -32,13 +24,13 @@ export default function DefaultLayout(params) {
 
     return (
         <Layout>
-            <Header style={headerStyle}>
+            <Header className="container-header">
                 <AppHeader />
             </Header>
-            <Content style={contentStyle}>
+            <Content className="container-content">
                 { outlet }
             </Content>
-            <Footer style={footerStyle}>
+            <Footer className="container-footer">
                 <AppFooter />
             </Footer>
         </Layout>
