@@ -32,7 +32,7 @@ export default function AppHeader() {
                     </div>
                 </div>
                 <div className="user">
-                    <Button>Connect Wallet</Button>
+                    <Button>Sign Up</Button>
                 </div>
             </div>
         </div>
