@@ -14,7 +14,7 @@ export default function DefaultLayout(params) {
         lineHeight: '55px',
         padding: 0,
         backgroundColor: 'rgba(0,0,0,0)',
-        position: "fixed",
+        // position: "fixed",
         color: "#fff",
         zIndex: 999
     };
