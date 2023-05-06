@@ -4,7 +4,6 @@ import AppFooter from "./AppFooter";
 import { useRoutes } from "react-router-dom";
 import { Layout } from "antd";
 import "@/style/container.scss";
-import "@/style/default.scss";
 
 const { Header, Footer, Content } = Layout;
 

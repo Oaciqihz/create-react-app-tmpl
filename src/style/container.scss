@@ -29,6 +29,8 @@
         .img{
             width: 230px;
             height: 68px;
+            font-family: Arial-BoldMT,Arial;
+            font-size: 34px;
         }
     }
     a{
@@ -49,6 +51,13 @@
         }
         .user{
             button{
+                height: 40px;
+                padding: 4px 20px;
+                border-radius: 25px;
+                color: #fff;
+                background-color: #1f1e2e;
+                font-size: 18px;
+                letter-spacing: 1.71px;
             }
         }
     }

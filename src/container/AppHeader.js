@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Web3Button } from '@web3modal/react';
 import { menu } from "./menu";
 import { Button } from "antd";
 
@@ -11,7 +10,8 @@ export default function AppHeader() {
                 <Link to="/">
                     <li>
                         <div className="img">
-                            <img src="" alt="" />
+                            {/* <img src="" alt="" /> */}
+                            REACT-TMPL
                         </div>
                     </li>
                 </Link>
@@ -28,7 +28,7 @@ export default function AppHeader() {
             <div className="header-user">
                 <div className="toggle-lang">
                     <div className="img">
-                        <img src="" alt="" />
+                        <img src={require("@/images/toggle-lang.png")} alt="" />
                     </div>
                 </div>
                 <div className="user">
