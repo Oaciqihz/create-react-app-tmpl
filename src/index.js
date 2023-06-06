@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import "@/locales/config";
 import '@/style/index.css';
 import 'antd/dist/reset.css';
 import "@/style/default.scss";

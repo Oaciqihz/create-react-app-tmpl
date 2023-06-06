@@ -1,0 +1,94 @@
+{
+    "header": {
+        "explore": "Challenges",
+        "lesson": "Tutorials",
+        "lesson-sub": "Recommended course",
+        "cert": "Vitae",
+        "connect": "Connect wallet",
+        "disconnect": "Disconnect",
+        "profile": "Profile"
+    },
+    "home": {
+        "slogan1": "You are what you build.",
+        "slogan2": "Decentralized skills learning and certification platform",
+        "btn-explore": "Explore challenges",
+        "btn-publish": "Create a Challenge"
+    },
+    "btn-submit": "Submit",
+    "btn-add": "Add",
+    "btn-add-answer": "Add option",
+    "btn-sumbit-confirm": "Confirm and submit",
+    "btn-go-challenge": "View challenge details",
+    "btn-edit-profile": "Edit Profile",
+    "btn-cancel": "Cancel",
+    "btn-save": "Save",
+    "btn-confirm": "Confirm",
+    "btn-publish": "Publish",
+    "btn-view": "Preview",
+    "btn-clear": "Clear data",
+
+    "diff": "Difficulty",
+    "diff-info": {
+       "easy": "Easy",
+       "normal": "Normal",
+       "diff": "Difficult"
+    },
+    "status": {
+        "load": "loading",
+        "none": "no more"
+    },
+    "time": "Estimated time",
+    "time-info": {
+        "m": "{{time}} min",
+        "h": "{{time}} h",
+        "d": "{{time}} day",
+        "w": "{{time}} week"
+    },
+    "confirm": {
+        "clear": "Clear all quiz？"
+    },
+    "modal": {
+        "claim": {
+            "claiming": "Pending...",
+            "desc": "SBT is untransferable and cannot be sold.",
+            "claimed": "You've got an SBT!",
+            "link": "View SBT details",
+            "share": "Share on twitter"
+        },
+        "add-sbt": {
+            "title": "Add the NFT you want to display",
+            "rule": "Please enter the contract address",
+            "select": "Select a Network"
+        }
+    },
+    "message": {
+        "success": {
+            "submit": {
+                "title": "Submit succeed",
+                "desc": "The system will airdrop the SBT to your wallet later, please do not delete the tweet."
+            },
+            "save": "Update success!",
+            "copy": "Copy success!",
+            "copy-share": "Copy success! Please go to the Twitter app to share the content.",
+            "copy-link": "Link opied",
+            "copy-addr": "Address copied"
+        },
+        "error": {
+            "submit": {
+                "title": "Format error",
+                "desc": "Please do not delete or modify the content of the tweet."
+            }
+        },
+        "info": {
+            "mobile-publish": "Please open on your computer."
+        }
+    },
+    "pop": {
+        "yes": "Yes",
+        "no": "No",
+        "delete": {
+            "title": "Delete the quiz",
+            "desc": "Are you sure to delete this quiz?"
+        }
+    }
+}

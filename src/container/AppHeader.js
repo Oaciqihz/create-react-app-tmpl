@@ -1,6 +1,7 @@
+import { Button } from "antd";
 import { Link } from "react-router-dom";
 import { menu } from "./menu";
-import { Button } from "antd";
+import { toggleLang } from "@/utils/i18n";
 
 export default function AppHeader() {
 
@@ -16,8 +17,8 @@ export default function AppHeader() {
                     </li>
                 </Link>
                 {
-                    menu.map(e => 
-                        <Link to={e.href}>
+                    menu.map((e, i) => 
+                        <Link to={e.href} key={i}>
                             <li>
                                 {e.label}
                             </li>
@@ -27,7 +28,7 @@ export default function AppHeader() {
             </ul>
             <div className="header-user">
                 <div className="toggle-lang">
-                    <div className="img">
+                    <div className="img" onClick={toggleLang}>
                         <img src={require("@/images/toggle-lang.png")} alt="" />
                     </div>
                 </div>

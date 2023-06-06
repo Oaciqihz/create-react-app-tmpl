@@ -1,0 +1,95 @@
+{
+    "header": {
+        "explore": "挑战",
+        "lesson": "教程",
+        "lesson-sub": "推荐课程",
+        "cert": "认证",
+        "connect": "链接钱包",
+        "disconnect": "断开连接",
+        "profile": "个人中心"
+    },
+    "home": {
+        "slogan1": "码一个未来",
+        "slogan2": "去中心化学习及技能认证平台",
+        "btn-explore": "探索挑战",
+        "btn-publish": "创建挑战"
+    },
+    "btn-submit": "提交",
+    "btn-add": "添加",
+    "btn-add-answer": "添加选项",
+    "btn-sumbit-confirm": "确认并提交",
+    "btn-go-challenge": "查看挑战详情",
+    "btn-edit-profile": "编辑资料",
+    "btn-cancel": "取消",
+    "btn-save": "保存",
+    "btn-confirm": "确认",
+    "btn-publish": "发布挑战",
+    "btn-view": "预览",
+    "btn-clear": "清空所有",
+
+    "diff": "难度",
+    "diff-info": {
+       "easy": "简单",
+       "normal": "中等",
+       "diff": "困难"
+    },
+
+    "status": {
+        "load": "加载中",
+        "none": "暂无更多"
+    },
+    "time": "预估时间",
+    "time-info": {
+        "m": "{{time}} 分钟",
+        "h": "{{time}} 小时",
+        "d": "{{time}} 天",
+        "w": "{{time}} 周"
+    },
+    "confirm": {
+        "clear": "确认清空？"
+    },
+    "modal": {
+        "claim": {
+            "claiming": "铸造中...",
+            "desc": "SBT 是不可转让，也不可出售的。",
+            "claimed": "你获得了一个SBT！",
+            "link": "查看SBT详情",
+            "share": "分享到Twitter"
+        },
+        "add-sbt": {
+            "title": "添加想要展示的 NFT",
+            "rule": "请输入合约地址",
+            "select": "选择网络"
+        }
+    },
+    "message": {
+        "success": {
+            "submit": {
+                "title": "提交成功",
+                "desc": "稍后系统将会把SBT发送至你的钱包账户，在此期间请勿删除此推文。"
+            },
+            "save": "保存成功！",
+            "copy": "复制成功！",
+            "copy-share": "复制成功，请前往推特应用程序分享该内容",
+            "copy-link": "已复制链接",
+            "copy-addr": "已复制"
+        },
+        "error": {
+            "submit": {
+                "title": "格式错误",
+                "desc": "请勿删除或修改推文内容。"
+            }
+        },
+        "info": {
+            "mobile-publish": "请在电脑端打开"
+        }
+    },
+    "pop": {
+        "yes": "是",
+        "no": "否",
+        "delete": {
+            "title": "删除题目",
+            "desc": "您确定要删除此题目吗?"
+        }
+    }
+}
