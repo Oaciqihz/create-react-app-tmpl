@@ -1,16 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
+import Providers from './Provider';
 import "@/locales/config";
 import '@/style/index.css';
 import 'antd/dist/reset.css';
 import "@/style/default.scss";
-import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <App />
+    <Providers>
+      <App />
+    </Providers>
   </BrowserRouter>
 );
 
